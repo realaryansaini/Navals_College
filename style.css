@@ -6,7 +6,6 @@ html,body{
 }
 
 .nav{
-    overflow-x:hidden;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
@@ -353,6 +352,9 @@ html,body{
     font-weight: 500;
 }
 
+/* .sidebar{
+    display: none;
+} */
 
 
 
@@ -365,7 +367,7 @@ html,body{
     /* .catagories_section .catagory_links{
         gap: 5px;
     } */
-    .catagory_header , .catagory_links a{
+    .catagory_header , .catagory_links .anchor{
         font-size: .7rem;
     }
     .college_name{
@@ -383,7 +385,7 @@ html,body{
         font-size: 1rem;
     }
 
-    .nav .logo .logo_title{
+    .logo_title{
         font-size: 1.1rem;
     }
     .nav .logo{
