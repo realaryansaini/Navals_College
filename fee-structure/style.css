@@ -1,0 +1,296 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    /* background-color: red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav .logo img{
+    width: 30px;
+    /* border-radius: 50%; */
+}
+
+.nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo_title{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: min(1.4rem,3.5vw);
+    /* font-weight: 500px; */
+}
+.navLinks_container{
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.nav .navLinks_container .anchor:hover{
+    color: blue;
+    /* background-color: blue; */
+}
+
+.anchor{
+    text-decoration: none;
+    color: inherit;
+    /* font-weight: 500; */
+}
+
+
+.menu img{
+    width: 25px;
+    opacity: 70%;
+}
+
+.menu{
+    display: none;
+    border-style: none;
+    background-color: transparent;
+}
+
+
+
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(216, 213, 213);
+    /* transform: translateX(-73px); */
+    /* margin-top: 22px; */
+    width:  40vw;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    top: 77px;
+    /* right: -40%; */
+    /* padding: 10px; */
+    transition: all ease-in-out .3s;
+    border-radius: 10px;
+    /* display: none; */
+    overflow: hidden;
+}
+
+.sidebar div{
+    padding: 10px;
+}
+.sidebar div:hover{
+    /* padding: 10px; */
+    background-color: blue;
+    color: white;
+}
+
+
+.hidden_section{
+    display: none;
+}
+
+
+
+/* container */
+
+.container{
+    min-height: 90vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    /* background-color: red; */
+    gap: 20px;
+/* justify-content: center; */
+margin: auto;
+padding: 20px 0;
+}
+
+
+.container section{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.container table{
+    width: 100%;
+}
+
+
+.program_title{
+    text-align: start;
+    /* background-color: red; */
+    width: 100%;
+    font-size: 1.4rem;
+    color: orangered;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.sub_programs_title{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* text-align: center; */
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    /* justify-content: ; */
+    padding: 50px 30px;
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+.college_detalis img{
+    width: 100px;
+}
+
+.college_detalis{
+    display: flex;
+    /* padding: 20px; */
+    gap: 10px;
+    width: 40vw;
+}
+
+.catagories_section{
+    display: flex;
+    justify-content: space-evenly;
+    /* width: auto; */
+    width: 60vw;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+
+.catagory_links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.catagory{
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.catagory_header{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.catagory_links .anchor{
+    font-size: .9rem;
+    /* font-weight: 500; */
+}
+
+.college_name{
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+
+@media (max-width:800px) {
+    .hidden_section{
+        display: contents;
+    }
+    .navLinks_container{
+        display: none;
+    }
+
+  
+
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .catagories_section{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .college_detalis{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .catagory_links{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        /* text-align: start; */
+    }
+
+    .catagory{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+   
+
+
+    .menu{
+        display: contents;
+    }
+
+    /* .hidden_section{
+        display: contents;
+    } */
+
+    .sidebar{
+        display: flex;
+    }
+
+    .container{
+        width: 90vw;
+    }
+}
