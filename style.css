@@ -30,8 +30,8 @@ html,body{
 
 .logo_title{
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-size: min(1.4rem,3.6vw);
-    /* font-weight: 500px; */
+    font-size: min(1.4rem,3.7vw);
+    /* font-weight: 700px; */
 }
 
 
@@ -132,7 +132,7 @@ html,body{
 
 .admission_button a{
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: min(1.3rem,3.6vw);
     color: orangered;
 }
 .admission_button a:hover{
@@ -173,7 +173,7 @@ html,body{
 }
 
 .notice_title{
-    font-size: 1.2rem;
+    font-size: min(1.2rem,3.5vw);
     font-weight: 500;
     opacity: 80%;
     color: orangered;
@@ -302,7 +302,7 @@ html,body{
 }
 
 .college_detalis img{
-    width: 100px;
+    width: min(100px,10vw);
 }
 
 .college_detalis{
@@ -357,6 +357,13 @@ html,body{
 
 
 @media (max-width:800px) {
+
+    /* .college_detalis img{
+        width: ;
+    } */
+    .footer{
+        padding: 30px 20px;
+    }
     .menu img{
         width: 20px;
     }
