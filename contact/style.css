@@ -222,6 +222,29 @@ textarea:focus{
 }
 
 @media (max-width:900px) {
+    
+  
+  
+
+    .logo_title{
+        font-size: 1.1rem;
+    }
+    .nav .logo{
+        /* display: flex; */
+        gap: 10px;
+    }
+    
+    .menu img{
+        width: 20px;
+    }
+
+    .nav{
+        padding: 15px;
+    }
+
+    .nav .logo img{
+        width: 25px;
+    }
 
      .college_header{
         font-size: 1.2rem;
