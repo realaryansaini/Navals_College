@@ -382,8 +382,8 @@ html,body{
         font-size: 1rem;
     }
 
-    .logo_title{
-        font-size: 1rem;
+    .nav .logo .logo_title{
+        font-size: 1.1rem;
     }
     .nav .logo{
         /* display: flex; */
