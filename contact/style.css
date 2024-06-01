@@ -73,7 +73,7 @@ html,body{
     display: flex;
     flex-direction: column;
     /* gap: 10px; */
-    top: 77px;
+    top: 61px;
     /* right: -40%; */
     /* padding: 10px; */
     transition: all ease-in-out .3s;
