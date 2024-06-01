@@ -30,7 +30,7 @@ html,body{
 
 .logo_title{
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-size: min(1.4rem,3.5vw);
+    font-size: min(1.4rem,3.6vw);
     /* font-weight: 500px; */
 }
 
@@ -357,6 +357,17 @@ html,body{
 
 
 @media (max-width:800px) {
+    .menu img{
+        width: 20px;
+    }
+
+    .nav{
+        padding: 15px;
+    }
+
+    .nav .logo img{
+        width: 25px;
+    }
     .hidden_section{
         display: contents;
     }
