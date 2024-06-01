@@ -28,7 +28,7 @@ html,body{
 
 .logo_title{
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-size: min(1.4rem,3.5vw);
+    font-size: 1.4rem;
     /* font-weight: 500px; */
 }
 .navLinks_container{
@@ -72,7 +72,7 @@ html,body{
     display: flex;
     flex-direction: column;
     /* gap: 10px; */
-    top: 77px;
+    top: 61px;
     /* right: -40%; */
     /* padding: 10px; */
     transition: all ease-in-out .3s;
@@ -94,6 +94,7 @@ html,body{
 .hidden_section{
     display: none;
 }
+
 
 
 /* container */
@@ -183,7 +184,7 @@ table {
 }
 
 .college_detalis img{
-    width: 100px;
+    width: 50px;
 }
 
 .college_detalis{
@@ -235,10 +236,53 @@ table {
 
 
 
-
-
-
 @media (max-width:800px) {
+     .college_detalis img{
+        width: 50px;
+    }
+    /* .catagories_section .catagory_links{
+        gap: 5px;
+    } */
+    .catagory_header , .catagory_links .anchor{
+        font-size: .7rem;
+    }
+    .college_name{
+        font-size: 1.1rem;
+    }
+    .college_address{
+        font-size: .7rem;
+        opacity: 70%;
+    }
+    .notice_dec , .notice_date{
+        font-size: .7rem;
+        opacity: 70%;
+    }
+    .admission_button a , .notice_title{
+        font-size: 1rem;
+    }
+
+    .logo_title{
+        font-size: 1.1rem;
+    }
+    .nav .logo{
+        /* display: flex; */
+        gap: 10px;
+    }
+    .footer{
+        padding: 30px 20px;
+    }
+    .menu img{
+        width: 20px;
+    }
+
+    .nav{
+        padding: 15px;
+    }
+
+    .nav .logo img{
+        width: 25px;
+    }
+    
     .hidden_section{
         display: contents;
     }
@@ -276,6 +320,9 @@ table {
         flex-direction: row;
         gap: 20px;
     }
+
+   
+
 
     .menu{
         display: contents;
