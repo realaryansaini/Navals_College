@@ -2,10 +2,10 @@
 // sidebar.right = "-100px"
 
 let sidebar = document.getElementById("sidebar")
+sidebar.style["display"] = "none"
 sidebar.style["right"] = "-100%"
 
 const show_sidebar =()=>{
-    
     
     // var element = document.getElementById("myElement");
     // var property = "display"; // Property to toggle
@@ -13,11 +13,13 @@ const show_sidebar =()=>{
     var initialValue = sidebar.style[property]; // Get initial value
     // var toggleValue = initialValue === "-40vw" ? "0" : "-40vw"; // Toggle value
     if(initialValue == "-100%"){
-
+        
+        sidebar.style["display"] = "flex"
         sidebar.style[property] = "0" // Set the property
         // console.log("run kiya");
     }else{
         sidebar.style[property] = "-100%" // Set the property
+        sidebar.style["display"] = "none"
         // console.log("rundiya")
 
     }
