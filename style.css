@@ -360,6 +360,10 @@ html,body{
 
 
 @media (max-width:800px) {
+    .admission_button{
+        padding:10px 0;
+    }
+
 
     .college_detalis img{
         width: 50px;
